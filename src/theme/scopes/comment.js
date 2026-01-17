@@ -9,7 +9,7 @@ export default function getCommentSettings(scheme, term) {
       "punctuation.definition.comment",
     ],
     settings: {
-      foreground: scheme.onSurfaceVariant, // Use MD3 onSurfaceVariant token for better contrast
+      foreground: scheme.onSurfaceVariant,
       fontStyle: "italic",
     },
   };

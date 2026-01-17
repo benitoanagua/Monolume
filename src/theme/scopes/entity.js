@@ -13,7 +13,7 @@ export default function getEntitySettings(scheme, term) {
         "entity.name.section",
       ],
       settings: {
-        foreground: term.normal.cyan,
+        foreground: scheme.primary,
         fontStyle: "bold",
       },
     },
@@ -25,7 +25,7 @@ export default function getEntitySettings(scheme, term) {
         "entity.name.constructor",
       ],
       settings: {
-        foreground: term.normal.green,
+        foreground: scheme.secondary,
         fontStyle: "bold",
       },
     },
@@ -37,7 +37,7 @@ export default function getEntitySettings(scheme, term) {
         "entity.other.attribute-name",
       ],
       settings: {
-        foreground: term.normal.yellow,
+        foreground: scheme.tertiary,
       },
     },
   ];

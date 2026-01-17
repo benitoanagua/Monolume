@@ -20,7 +20,7 @@ export default function getVariousSettings(scheme, term) {
         "punctuation.section.bracket",
       ],
       settings: {
-        foreground: scheme.onSurfaceVariant,
+        foreground: scheme.secondary,
         fontStyle: "bold",
       },
     },

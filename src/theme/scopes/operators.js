@@ -26,7 +26,7 @@ export default function getOperatorSettings(scheme, term) {
       "keyword.operator",
     ],
     settings: {
-      foreground: term.normal.red,
+      foreground: scheme.error,
       fontStyle: "bold",
     },
   };

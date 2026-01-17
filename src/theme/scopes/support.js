@@ -4,7 +4,7 @@ export default function getSupportSettings(scheme, term) {
       name: "Built-in functions and methods",
       scope: ["support.function"],
       settings: {
-        foreground: term.normal.cyan,
+        foreground: scheme.secondary,
         fontStyle: "bold",
       },
     },
@@ -12,7 +12,7 @@ export default function getSupportSettings(scheme, term) {
       name: "Built-in classes and types",
       scope: ["support.class", "support.type"],
       settings: {
-        foreground: term.normal.blue,
+        foreground: scheme.primary,
         fontStyle: "italic",
       },
     },
@@ -20,7 +20,7 @@ export default function getSupportSettings(scheme, term) {
       name: "Built-in constants and variables",
       scope: ["support.constant", "support.variable"],
       settings: {
-        foreground: term.normal.magenta,
+        foreground: scheme.tertiary,
       },
     },
   ];

@@ -11,7 +11,7 @@ export default function getVariableSettings(scheme, term) {
       name: "Function parameters",
       scope: ["variable.parameter", "variable.parameter.function"],
       settings: {
-        foreground: term.normal.yellow,
+        foreground: scheme.primary,
       },
     },
     {
@@ -22,14 +22,14 @@ export default function getVariableSettings(scheme, term) {
         "variable.other.object.property",
       ],
       settings: {
-        foreground: term.normal.blue,
+        foreground: scheme.secondary,
       },
     },
     {
       name: "Environment variables",
       scope: ["variable.other.environment"],
       settings: {
-        foreground: term.normal.green,
+        foreground: scheme.tertiary,
         fontStyle: "italic",
       },
     },
@@ -41,7 +41,7 @@ export default function getVariableSettings(scheme, term) {
         "variable.other.module",
       ],
       settings: {
-        foreground: term.normal.magenta,
+        foreground: scheme.error,
         fontStyle: "bold",
       },
     },

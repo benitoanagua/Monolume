@@ -11,7 +11,7 @@ export default function getConstantSettings(scheme, term) {
         "constant.numeric.binary",
       ],
       settings: {
-        foreground: term.normal.magenta,
+        foreground: scheme.tertiary,
         fontStyle: "bold",
       },
     },
@@ -22,7 +22,7 @@ export default function getConstantSettings(scheme, term) {
         "constant.other",
       ],
       settings: {
-        foreground: term.normal.cyan,
+        foreground: scheme.secondary,
       },
     },
     {
@@ -32,7 +32,7 @@ export default function getConstantSettings(scheme, term) {
         "constant.other.placeholder",
       ],
       settings: {
-        foreground: term.normal.yellow,
+        foreground: scheme.primary,
       },
     },
   ];

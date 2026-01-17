@@ -9,7 +9,7 @@ export default function getMarkupSettings(scheme, term) {
       ],
       settings: {
         fontStyle: "bold",
-        foreground: term.normal.blue,
+        foreground: scheme.primary,
       },
     },
     {
@@ -21,7 +21,7 @@ export default function getMarkupSettings(scheme, term) {
         "string.other.link.description.markdown",
       ],
       settings: {
-        foreground: term.normal.green,
+        foreground: scheme.tertiary,
         fontStyle: "underline",
       },
     },
@@ -33,7 +33,7 @@ export default function getMarkupSettings(scheme, term) {
         "markup.quote.markdown",
       ],
       settings: {
-        foreground: term.normal.yellow,
+        foreground: scheme.primary,
         fontStyle: "italic",
       },
     },
@@ -61,7 +61,7 @@ export default function getMarkupSettings(scheme, term) {
         "punctuation.definition.list.begin",
       ],
       settings: {
-        foreground: scheme.primary, // Use MD3 primary token
+        foreground: scheme.primary,
       },
     },
     {
