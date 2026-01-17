@@ -1,7 +1,7 @@
 {
   "name": "monolume",
   "displayName": "Monolumé",
-  "description": "Monolumé - Material Design inspired VSCode themes (Light/Dark) with Manual Color Tokens",
+  "description": "Quiet Light and Monokai reimagined with Material Design 3 - Classic themes, modern architecture",
   "version": "1.0.0",
   "type": "module",
   "publisher": "benitoanagua",
@@ -34,7 +34,6 @@
     "monokai",
     "monolume"
   ],
-
   "contributes": {
     "themes": [
       {
