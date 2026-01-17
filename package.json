@@ -2,7 +2,7 @@
   "name": "monolume",
   "displayName": "Monolumé",
   "description": "Quiet Light and Monokai reimagined with Material Design 3 - Classic themes, modern architecture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "publisher": "benitoanagua",
   "engines": {
@@ -24,6 +24,7 @@
   "categories": [
     "Themes"
   ],
+  "icon": "assets/icon.jpg",
   "keywords": [
     "theme",
     "material-design",

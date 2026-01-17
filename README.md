@@ -1,11 +1,21 @@
 # Monolumé VSCode Theme
 
-Modern VSCode themes combining classic editor aesthetics with Material Design 3 architecture.
+Classic editor themes reimagined with Material Design 3 architecture.
 
 ## Themes
 
 - **Monolumé Light** - Quiet Light + Brackets Light Pro terminals
 - **Monolumé Dark** - Monokai + Kanagawa accents
+
+## Screenshots
+
+### Monolumé Light
+
+![Monolumé Light Theme](https://yourimageshare.com/ib/RfeCxbB3wt.png)
+
+### Monolumé Dark
+
+![Monolumé Dark Theme](https://yourimageshare.com/ib/w3j0T7XeVq.png)
 
 ## Installation
 
