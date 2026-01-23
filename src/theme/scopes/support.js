@@ -13,7 +13,7 @@ export default function getSupportSettings(scheme, term) {
       scope: ["support.class", "support.type"],
       settings: {
         foreground: scheme.primary,
-        fontStyle: "italic",
+        fontStyle: "",
       },
     },
     {

@@ -3,67 +3,67 @@
 // Dark: Monokai vibrancy with Kanagawa harmony
 
 export const monolumeLight = {
-  primary: "#7A3E9D",
-  onPrimary: "#FEFEFE",
-  primaryContainer: "#F3E5FF",
-  onPrimaryContainer: "#2D0051",
+  primary: "#8431C5", // Brackets Purple
+  onPrimary: "#FFFFFF",
+  primaryContainer: "#F2E8FF",
+  onPrimaryContainer: "#32004E",
 
-  secondary: "#4B69C6",
-  onSecondary: "#FEFEFE",
-  secondaryContainer: "#DCE7FF",
-  onSecondaryContainer: "#001D36",
+  secondary: "#E88501", // Swapped to Orange as per latest snippet
+  onSecondary: "#FEFEFE", // Distinct from #FFFFFF
+  secondaryContainer: "#FFDCC2",
+  onSecondaryContainer: "#341B00",
 
-  tertiary: "#448C27",
-  onTertiary: "#FEFEFE",
-  tertiaryContainer: "#D5F7D6",
-  onTertiaryContainer: "#0A2F0B",
+  tertiary: "#4F7E00", // Swapped to Green
+  onTertiary: "#FDFCFC", // Distinct
+  tertiaryContainer: "#D9FCA6",
+  onTertiaryContainer: "#1A2C00",
 
-  error: "#AA3731",
-  onError: "#FEFEFE",
+  error: "#D02000",
+  onError: "#FCFCFC", // Distinct
   errorContainer: "#FFDAD6",
   onErrorContainer: "#410002",
 
-  background: "#F5F5F5",
-  onBackground: "#1C1B1F",
+  background: "#F8F8F8",
+  onBackground: "#353535",
 
-  surface: "#F3F3F3",
-  onSurface: "#1C1B1F",
+  surface: "#F8F8F8",
+  onSurface: "#353535",
   surfaceDim: "#EBEDEF",
-  surfaceBright: "#FCFCFC",
-  surfaceContainerLowest: "#FEFEFE",
-  surfaceContainerLow: "#FAFAFA",
-  surfaceContainer: "#F5F5F5",
-  surfaceContainerHigh: "#F0F0F0",
-  surfaceContainerHighest: "#E8E8E8",
+  surfaceBright: "#FFFFFF",
+  surfaceContainerLowest: "#FFFEFE", // Distinct
+  surfaceContainerLow: "#FCFCFC",
+  surfaceContainer: "#F4F4F4", // Distinct from background
+  surfaceContainerHigh: "#F2F2F2",
+  surfaceContainerHighest: "#EAECEF", // Distinct from Dim
 
-  surfaceVariant: "#E7E0EC",
-  onSurfaceVariant: "#49454F",
+  surfaceVariant: "#E0E0E0",
+  onSurfaceVariant: "#535353",
 
-  outline: "#79747E",
-  outlineVariant: "#CAC4D0",
+  outline: "#A4A9B2",
+  outlineVariant: "#C3C7CD",
 
   shadow: "#000000",
   scrim: "#000000",
 
-  inverseSurface: "#313033",
-  inverseOnSurface: "#F4EFF4",
+  inverseSurface: "#353535",
+  inverseOnSurface: "#F8F8F8",
   inversePrimary: "#D0BCFF",
 };
 
 export const monolumeDark = {
-  primary: "#A6E22E",
-  onPrimary: "#0F1A06",
-  primaryContainer: "#2B3D1A",
-  onPrimaryContainer: "#C7F1D4",
+  primary: "#A6E22E", // Monokai Green
+  onPrimary: "#1E2810",
+  primaryContainer: "#344815",
+  onPrimaryContainer: "#D9FFB8",
 
-  secondary: "#66D9EF",
-  onSecondary: "#003544",
-  secondaryContainer: "#004D61",
-  onSecondaryContainer: "#C7F0FF",
+  secondary: "#E88501", // Variant of #E88501 (Orange)
+  onSecondary: "#341B00",
+  secondaryContainer: "#542C00",
+  onSecondaryContainer: "#FFDCC2",
 
-  tertiary: "#AE81FF",
-  onTertiary: "#381E72",
-  tertiaryContainer: "#4F378B",
+  tertiary: "#957FB8", // Kanagawa Purple
+  onTertiary: "#2D203D",
+  tertiaryContainer: "#48385C",
   onTertiaryContainer: "#EADDFF",
 
   error: "#F92672",
@@ -71,24 +71,24 @@ export const monolumeDark = {
   errorContainer: "#93000A",
   onErrorContainer: "#FFD6E0",
 
-  background: "#272822",
-  onBackground: "#F8F8F2",
+  background: "#1F1F28",
+  onBackground: "#DCD7BA",
 
   surface: "#1F1F28",
   onSurface: "#DCD7BA",
   surfaceDim: "#16161D",
   surfaceBright: "#2A2A37",
-  surfaceContainerLowest: "#0D0D12",
-  surfaceContainerLow: "#1A1A20",
-  surfaceContainer: "#23231F",
-  surfaceContainerHigh: "#2F2F2B",
-  surfaceContainerHighest: "#3A3A35",
+  surfaceContainerLowest: "#14141B", // Distinct from Dim
+  surfaceContainerLow: "#1D1D26", // Distinct from Surface
+  surfaceContainer: "#22222A",
+  surfaceContainerHigh: "#2A2A35",
+  surfaceContainerHighest: "#363646",
 
-  surfaceVariant: "#49483E",
+  surfaceVariant: "#494955",
   onSurfaceVariant: "#C8C093",
 
-  outline: "#938F99",
-  outlineVariant: "#49454F",
+  outline: "#727169",
+  outlineVariant: "#49443C",
 
   shadow: "#000000",
   scrim: "#000000",
@@ -101,27 +101,27 @@ export const monolumeDark = {
 export const terminalColors = {
   "monolume-light": {
     normal: {
-      black: "#0A0A0A",
+      black: "#353535",
       red: "#D02000",
       green: "#10A567",
-      yellow: "#DDB700",
-      blue: "#386AC3",
+      yellow: "#E88501",
+      blue: "#386AC3", // Restored Brackets Blue for uniqueness
       magenta: "#8431C5",
       cyan: "#0798BC",
-      white: "#6D705B",
+      white: "#A4A9B2",
     },
     bright: {
       black: "#535353",
-      red: "#F92672",
-      green: "#12CE14",
+      red: "#D02000",
+      green: "#10A567",
       yellow: "#E88501",
-      blue: "#4B69C6",
-      magenta: "#967EFB",
-      cyan: "#0BC5E0",
-      white: "#A5A5A5",
+      blue: "#386AC3",
+      magenta: "#8431C5",
+      cyan: "#0798BC",
+      white: "#C3C7CD",
     },
     dim: {
-      black: "#0A0A0A",
+      black: "#353535",
       red: "#AA3731",
       green: "#0C8552",
       yellow: "#B39D3C",
@@ -133,31 +133,31 @@ export const terminalColors = {
   },
   "monolume-dark": {
     normal: {
-      black: "#272822",
+      black: "#1F1F28",
       red: "#F92672",
       green: "#A6E22E",
       yellow: "#E6DB74",
-      blue: "#66D9EF",
+      blue: "#7E9CD8", // Kanagawa Blue
       magenta: "#AE81FF",
-      cyan: "#66D9EF",
-      white: "#F8F8F2",
+      cyan: "#66D9EF", // Monokai Cyan
+      white: "#DCD7BA",
     },
     bright: {
       black: "#75715E",
       red: "#FF3D85",
       green: "#BBFD41",
       yellow: "#FFF08A",
-      blue: "#8AEAFF",
+      blue: "#9CDCFE", // Distinct bright blue
       magenta: "#C99DFF",
       cyan: "#8AEAFF",
       white: "#F5F5F0",
     },
     dim: {
-      black: "#1E1F1C",
+      black: "#16161D",
       red: "#D11556",
       green: "#8BC123",
       yellow: "#C9BC5D",
-      blue: "#4FB5CA",
+      blue: "#5E81AC", // Nord-like dim blue, distinct
       magenta: "#9368D9",
       cyan: "#4FB5CA",
       white: "#CCCCC7",

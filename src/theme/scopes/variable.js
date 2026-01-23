@@ -30,7 +30,7 @@ export default function getVariableSettings(scheme, term) {
       scope: ["variable.other.environment"],
       settings: {
         foreground: scheme.tertiary,
-        fontStyle: "italic",
+        fontStyle: "",
       },
     },
     {

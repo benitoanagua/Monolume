@@ -34,7 +34,7 @@ export default function getMarkupSettings(scheme, term) {
       ],
       settings: {
         foreground: scheme.tertiary,
-        fontStyle: "italic",
+        fontStyle: "",
       },
     },
     {
@@ -49,7 +49,7 @@ export default function getMarkupSettings(scheme, term) {
       name: "Markdown italic",
       scope: ["markup.italic", "punctuation.definition.italic"],
       settings: {
-        fontStyle: "italic",
+        fontStyle: "",
         foreground: scheme.tertiary,
       },
     },

@@ -1,15 +1,15 @@
 export default function getControlElements(scheme, term) {
   return {
-    "button.background": scheme.primaryContainer,
-    "button.foreground": scheme.onPrimaryContainer,
+    "button.background": scheme.primary,
+    "button.foreground": scheme.onPrimary,
     "button.border": scheme.outline,
     "button.separator": scheme.outlineVariant,
-    "button.hoverBackground": scheme.primary,
+    "button.hoverBackground": `${scheme.primary}E6`, // 90% opacity
     "button.hoverForeground": scheme.onPrimary,
     "button.secondaryForeground": scheme.onPrimaryContainer,
     "button.secondaryBackground": scheme.primaryContainer,
-    "button.secondaryHoverBackground": scheme.primary,
-    "button.secondaryHoverForeground": scheme.onPrimary,
+    "button.secondaryHoverBackground": `${scheme.primaryContainer}E6`,
+    "button.secondaryHoverForeground": scheme.onPrimaryContainer,
 
     "checkbox.background": scheme.surfaceContainerLowest,
     "checkbox.border": scheme.outline,

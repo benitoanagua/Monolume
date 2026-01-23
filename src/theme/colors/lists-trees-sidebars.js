@@ -10,7 +10,7 @@ export default function getListsTreesAndSidebars(scheme, term) {
     "list.focusOutline": "none",
     "list.focusAndSelectionOutline": "none",
     "list.highlightForeground": scheme.primary,
-    "list.hoverBackground": scheme.surfaceContainer,
+    "list.hoverBackground": `${scheme.onSurface}14`, // 8% opacity
     "list.hoverForeground": scheme.onSurface,
     "list.inactiveSelectionBackground": scheme.secondaryContainer,
     "list.inactiveSelectionForeground": scheme.onSecondaryContainer,
@@ -33,7 +33,7 @@ export default function getListsTreesAndSidebars(scheme, term) {
     "tree.tableColumnsBorder": scheme.outline,
     "tree.tableOddRowsBackground": `${scheme.surfaceContainer}4D`,
 
-    "activityBar.background": scheme.surfaceContainerLow,
+    "activityBar.background": scheme.outlineVariant,
     "activityBar.dropBorder": scheme.primary,
     "activityBar.foreground": scheme.onSurface,
     "activityBar.inactiveForeground": scheme.onSurfaceVariant,

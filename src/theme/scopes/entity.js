@@ -25,7 +25,7 @@ export default function getEntitySettings(scheme, term) {
         "entity.name.constructor",
       ],
       settings: {
-        foreground: scheme.secondary,
+        foreground: scheme.primary,
         fontStyle: "bold",
       },
     },
