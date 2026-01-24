@@ -5,11 +5,9 @@ export default function getControlElements(scheme, term) {
     "button.border": scheme.outline,
     "button.separator": scheme.outlineVariant,
     "button.hoverBackground": `${scheme.primary}E6`, // 90% opacity
-    "button.hoverForeground": scheme.onPrimary,
     "button.secondaryForeground": scheme.onPrimaryContainer,
     "button.secondaryBackground": scheme.primaryContainer,
     "button.secondaryHoverBackground": `${scheme.primaryContainer}E6`,
-    "button.secondaryHoverForeground": scheme.onPrimaryContainer,
 
     "checkbox.background": scheme.surfaceContainerLowest,
     "checkbox.border": scheme.outline,
@@ -26,14 +24,11 @@ export default function getControlElements(scheme, term) {
     "radio.inactiveBackground": scheme.surfaceContainerLowest,
     "radio.inactiveBorder": scheme.outline,
     "radio.inactiveHoverBackground": scheme.primary,
-    "radio.inactiveHoverForeground": scheme.onPrimary,
 
     "dropdown.background": scheme.surfaceContainerLowest,
     "dropdown.listBackground": scheme.surfaceContainer,
     "dropdown.border": scheme.outline,
     "dropdown.foreground": scheme.onSurface,
-    "dropdown.hoverBackground": scheme.primaryContainer,
-    "dropdown.hoverForeground": scheme.onPrimaryContainer,
 
     "input.background": scheme.surfaceContainerLowest,
     "input.border": scheme.outline,
@@ -43,7 +38,6 @@ export default function getControlElements(scheme, term) {
     "inputOption.activeBorder": scheme.primary,
     "inputOption.activeForeground": scheme.primary,
     "inputOption.hoverBackground": scheme.primaryContainer,
-    "inputOption.hoverForeground": scheme.onPrimaryContainer,
 
     "inputValidation.errorBackground": scheme.errorContainer,
     "inputValidation.errorForeground": scheme.error,

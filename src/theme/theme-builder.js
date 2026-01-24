@@ -71,9 +71,9 @@ class ThemeBuilder {
       semanticHighlighting: true,
       tokenColors: [
         getCommentSettings(scheme, term),
-        getConstantSettings(scheme, term),
+        ...getConstantSettings(scheme, term),
         ...getEntitySettings(scheme, term),
-        getKeywordSettings(scheme, term),
+        ...getKeywordSettings(scheme, term),
         ...getMarkupSettings(scheme, term),
         getMetaSettings(scheme, term),
         getStorageSettings(scheme, term),
@@ -105,11 +105,16 @@ class ThemeBuilder {
     const generated = [];
 
     for (const variant of themeVariants) {
-      const scheme = { ...themeSchemes[variant.filename], isDark: variant.isDark };
+      const scheme = {
+        ...themeSchemes[variant.filename],
+        isDark: variant.isDark,
+      };
       const term = terminalColors[variant.filename];
 
       if (!scheme || !term) {
-        throw new Error(`Scheme or terminal colors not found for ${variant.filename}`);
+        throw new Error(
+          `Scheme or terminal colors not found for ${variant.filename}`,
+        );
       }
 
       const theme = this.buildTheme(scheme, term, variant);

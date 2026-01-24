@@ -40,7 +40,6 @@ export default function getVariousSettings(scheme, term) {
       scope: ["invalid", "invalid.illegal"],
       settings: {
         foreground: scheme.onError,
-        background: scheme.errorContainer,
       },
     },
     {
@@ -48,7 +47,6 @@ export default function getVariousSettings(scheme, term) {
       scope: ["invalid.deprecated"],
       settings: {
         foreground: scheme.onErrorContainer,
-        background: scheme.error,
       },
     },
   ];

@@ -7,8 +7,6 @@ export default function getListsTreesAndSidebars(scheme, term) {
     "list.focusBackground": scheme.surfaceContainerLow,
     "list.focusForeground": scheme.onSurface,
     "list.focusHighlightForeground": scheme.primary,
-    "list.focusOutline": "none",
-    "list.focusAndSelectionOutline": "none",
     "list.highlightForeground": scheme.primary,
     "list.hoverBackground": `${scheme.onSurface}14`, // 8% opacity
     "list.hoverForeground": scheme.onSurface,
@@ -48,8 +46,6 @@ export default function getListsTreesAndSidebars(scheme, term) {
     "activityBarTop.dropBorder": scheme.primary,
     "activityBarTop.background": scheme.surfaceContainerLow,
     "activityBarTop.activeBackground": scheme.surfaceContainer,
-    "activityBarTop.activeBorder": scheme.primary,
-    "activityBarTop.activeFocusBorder": scheme.primary,
     "activityWarningBadge.foreground": scheme.onTertiary,
     "activityWarningBadge.background": scheme.tertiary,
     "activityErrorBadge.foreground": scheme.onError,

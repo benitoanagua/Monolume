@@ -6,7 +6,6 @@ export default function getExtensionsAndQuickPickers(scheme) {
     "extensionButton.background": scheme.surface,
     "extensionButton.foreground": scheme.onSurface,
     "extensionButton.hoverBackground": scheme.surfaceVariant,
-    "extensionButton.hoverForeground": scheme.onSurfaceVariant,
     "extensionButton.separator": scheme.outlineVariant,
     "extensionBadge.remoteBackground": scheme.secondaryContainer,
     "extensionBadge.remoteForeground": scheme.onSecondaryContainer,

@@ -47,8 +47,6 @@ export default function getEditorColors(scheme, term) {
     "editor.lineHighlightBackground": `${scheme.surfaceContainer}4D`,
     "editor.lineHighlightBorder": scheme.outlineVariant,
 
-    "editorWatermark.foreground": scheme.onSurfaceVariant,
-
     "editorUnicodeHighlight.border": scheme.error,
     "editorUnicodeHighlight.background": scheme.surfaceContainer,
 
