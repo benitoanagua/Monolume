@@ -1,11 +1,11 @@
 export default function getNotificationsAndBanners(scheme, term) {
   return {
-    "notificationCenter.border": scheme.outlineVariant,
+    "notificationCenter.border": `${scheme.background}00`,
     "notificationCenterHeader.background": scheme.surfaceContainerLow,
     "notificationCenterHeader.foreground": scheme.onSurfaceVariant,
-    "notificationToast.border": scheme.outlineVariant,
+    "notificationToast.border": `${scheme.background}00`,
     "notifications.background": scheme.surfaceContainer,
-    "notifications.border": scheme.surfaceContainerLowest,
+    "notifications.border": `${scheme.background}00`,
     "notifications.foreground": scheme.onSurface,
     "notificationLink.foreground": scheme.primary,
     "notificationsErrorIcon.foreground": scheme.error,

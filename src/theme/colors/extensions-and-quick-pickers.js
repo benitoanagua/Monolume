@@ -6,7 +6,7 @@ export default function getExtensionsAndQuickPickers(scheme) {
     "extensionButton.background": scheme.surface,
     "extensionButton.foreground": scheme.onSurface,
     "extensionButton.hoverBackground": scheme.surfaceVariant,
-    "extensionButton.separator": scheme.outlineVariant,
+    "extensionButton.separator": `${scheme.background}00`,
     "extensionBadge.remoteBackground": scheme.secondaryContainer,
     "extensionBadge.remoteForeground": scheme.onSecondaryContainer,
     "extensionIcon.starForeground": scheme.tertiary,
@@ -16,7 +16,7 @@ export default function getExtensionsAndQuickPickers(scheme) {
     "extensionIcon.privateForeground": scheme.secondary,
     "mcpIcon.starForeground": scheme.tertiary,
 
-    "pickerGroup.border": scheme.outlineVariant,
+    "pickerGroup.border": `${scheme.background}00`,
     "pickerGroup.foreground": scheme.primary,
     "quickInput.background": scheme.surfaceContainerLow,
     "quickInput.foreground": scheme.onSurface,

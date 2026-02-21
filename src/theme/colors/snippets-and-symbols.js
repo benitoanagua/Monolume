@@ -1,9 +1,9 @@
 export default function getSnippetsAndSymbols(scheme) {
   return {
     "editor.snippetTabstopHighlightBackground": `${scheme.primary}20`,
-    "editor.snippetTabstopHighlightBorder": scheme.primary,
+    "editor.snippetTabstopHighlightBorder": `${scheme.background}00`,
     "editor.snippetFinalTabstopHighlightBackground": `${scheme.primary}30`,
-    "editor.snippetFinalTabstopHighlightBorder": scheme.primary,
+    "editor.snippetFinalTabstopHighlightBorder": `${scheme.background}00`,
 
     "symbolIcon.arrayForeground": scheme.onSurface,
     "symbolIcon.booleanForeground": scheme.primary,
