@@ -3,7 +3,7 @@ export default function getEditorColors(scheme, term) {
     "editor.background": scheme.background,
     "editor.foreground": scheme.onBackground,
     "editorLineNumber.foreground": scheme.onSurfaceVariant,
-    "editorLineNumber.activeForeground": scheme.primary,
+    "editorLineNumber.activeForeground": `${scheme.primary}99`,
     "editorLineNumber.dimmedForeground": scheme.outlineVariant,
     "editorCursor.background": scheme.surfaceContainer,
     "editorCursor.foreground": scheme.primary,
@@ -14,23 +14,23 @@ export default function getEditorColors(scheme, term) {
     "editor.placeholder.foreground": scheme.onSurfaceVariant,
     "editor.compositionBorder": `${scheme.background}00`,
 
-    "editor.selectionBackground": `${scheme.primaryContainer}99`,
-    "editor.selectionForeground": scheme.onPrimaryContainer,
-    "editor.inactiveSelectionBackground": `${scheme.primaryContainer}4D`,
-    "editor.selectionHighlightBackground": `${scheme.primaryContainer}4D`,
+    "editor.selectionBackground": `${scheme.primary}1A`,
+    "editor.selectionForeground": scheme.onPrimary,
+    "editor.inactiveSelectionBackground": `${scheme.primary}0A`,
+    "editor.selectionHighlightBackground": `${scheme.secondary}1A`,
     "editor.selectionHighlightBorder": `${scheme.background}00`,
 
-    "editor.wordHighlightBackground": `${scheme.secondaryContainer}66`,
+    "editor.wordHighlightBackground": `${scheme.secondary}33`,
     "editor.wordHighlightBorder": `${scheme.background}00`,
-    "editor.wordHighlightStrongBackground": `${scheme.secondaryContainer}99`,
+    "editor.wordHighlightStrongBackground": `${scheme.secondary}66`,
     "editor.wordHighlightStrongBorder": `${scheme.background}00`,
-    "editor.wordHighlightTextBackground": `${scheme.tertiaryContainer}33`,
+    "editor.wordHighlightTextBackground": `${scheme.tertiary}0A`,
     "editor.wordHighlightTextBorder": `${scheme.background}00`,
 
-    "editor.findMatchBackground": `${scheme.tertiaryContainer}AA`,
+    "editor.findMatchBackground": `${scheme.tertiary}66`,
     "editor.findMatchForeground": scheme.onSurface,
     "editor.findMatchHighlightForeground": `${scheme.onSurface}80`,
-    "editor.findMatchHighlightBackground": `${scheme.tertiaryContainer}33`,
+    "editor.findMatchHighlightBackground": `${scheme.tertiary}0A`,
     "editor.findRangeHighlightBackground": `${scheme.surfaceVariant}40`,
     "editor.findMatchBorder": `${scheme.background}00`,
     "editor.findMatchHighlightBorder": `${scheme.background}00`,
@@ -38,13 +38,13 @@ export default function getEditorColors(scheme, term) {
 
     "search.resultsInfoForeground": scheme.onSurfaceVariant,
 
-    "searchEditor.findMatchBackground": `${scheme.primary}33`,
+    "searchEditor.findMatchBackground": `${scheme.primary}0A`,
     "searchEditor.findMatchBorder": `${scheme.background}00`,
     "searchEditor.textInputBorder": `${scheme.background}00`,
 
-    "editor.hoverHighlightBackground": `${scheme.secondaryContainer}26`,
+    "editor.hoverHighlightBackground": `${scheme.secondary}1A`,
 
-    "editor.lineHighlightBackground": `${scheme.surfaceContainer}4D`,
+    "editor.lineHighlightBackground": `${scheme.surfaceContainer}1A`,
     "editor.lineHighlightBorder": `${scheme.background}00`,
 
     "editorUnicodeHighlight.border": `${scheme.background}00`,

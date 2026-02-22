@@ -1,9 +1,9 @@
 export default function getMenusAndCommandCenter(scheme, term) {
   return {
-    "titleBar.activeBackground": scheme.surfaceContainerHighest,
-    "titleBar.activeForeground": scheme.onSurface,
-    "titleBar.inactiveBackground": scheme.surfaceContainerLow,
-    "titleBar.inactiveForeground": scheme.onSurfaceVariant,
+    "titleBar.activeBackground": scheme.primaryContainer,
+    "titleBar.activeForeground": scheme.onPrimaryContainer,
+    "titleBar.inactiveBackground": `${scheme.primaryContainer}66`,
+    "titleBar.inactiveForeground": `${scheme.onPrimaryContainer}99`,
     "titleBar.border": `${scheme.background}00`,
 
     "menubar.selectionForeground": scheme.onPrimary,
@@ -19,7 +19,7 @@ export default function getMenusAndCommandCenter(scheme, term) {
 
     "commandCenter.foreground": scheme.onSurface,
     "commandCenter.activeForeground": scheme.onPrimary,
-    "commandCenter.background": scheme.surfaceContainer,
+    "commandCenter.background": `${scheme.primaryContainer}33`,
     "commandCenter.activeBackground": scheme.primary,
     "commandCenter.border": `${scheme.background}00`,
     "commandCenter.inactiveForeground": scheme.onSurfaceVariant,
