@@ -1,12 +1,10 @@
 export default function getPanelsAndStatusBar(scheme, term) {
   return {
     "panel.background": scheme.surfaceContainer,
-    "panel.border": `${scheme.background}00`,
-    "panel.dropBorder": `${scheme.background}00`,
-    "panelTitle.activeBorder": `${scheme.background}00`,
-    "panelTitle.activeForeground": scheme.onSurface,
-    "panelTitle.inactiveForeground": scheme.onSurfaceVariant,
-    "panelTitle.border": `${scheme.background}00`,
+    "panel.border": scheme.surfaceVariant,
+    "panel.dropBorder": scheme.surfaceVariant,
+    "panelTitle.activeBorder": scheme.primary,
+    "panelTitle.border": scheme.surfaceVariant,
     "panelTitleBadge.background": scheme.primary,
     "panelTitleBadge.foreground": scheme.onPrimary,
     "panelInput.border": `${scheme.background}00`,
@@ -23,7 +21,7 @@ export default function getPanelsAndStatusBar(scheme, term) {
 
     "statusBar.background": scheme.primaryContainer,
     "statusBar.foreground": scheme.onPrimaryContainer,
-    "statusBar.border": `${scheme.background}00`,
+    "statusBar.border": scheme.surfaceVariant,
     "statusBar.debuggingBackground": scheme.error,
     "statusBar.debuggingForeground": scheme.onError,
     "statusBar.debuggingBorder": `${scheme.background}00`,

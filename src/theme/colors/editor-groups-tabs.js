@@ -1,6 +1,6 @@
 export default function getEditorGroupsAndTabsColors(scheme) {
   return {
-    "editorGroup.border": `${scheme.background}00`,
+    "editorGroup.border": scheme.surfaceVariant,
     "editorGroup.dropBackground": `${scheme.primary}33`,
     "editorGroupHeader.noTabsBackground": scheme.surfaceContainerLow,
     "editorGroupHeader.tabsBackground": scheme.surfaceContainer,
@@ -15,9 +15,9 @@ export default function getEditorGroupsAndTabsColors(scheme) {
     "tab.activeBackground": `${scheme.primaryContainer}66`,
     "tab.unfocusedActiveBackground": `${scheme.primaryContainer}33`,
     "tab.activeForeground": scheme.onPrimaryContainer,
-    "tab.border": `${scheme.background}00`,
-    "tab.activeBorder": `${scheme.background}00`,
-    "tab.selectedBorderTop": `${scheme.background}00`,
+    "tab.border": scheme.surfaceVariant,
+    "tab.activeBorder": scheme.primary,
+    "tab.selectedBorderTop": scheme.primary,
     "tab.selectedBackground": `${scheme.primaryContainer}33`,
     "tab.selectedForeground": scheme.onPrimaryContainer,
     "tab.dragAndDropBorder": `${scheme.background}00`,
@@ -42,7 +42,7 @@ export default function getEditorGroupsAndTabsColors(scheme) {
     "tab.unfocusedInactiveModifiedBorder": `${scheme.background}00`,
 
     "editorPane.background": scheme.background,
-    "sideBySideEditor.horizontalBorder": `${scheme.background}00`,
-    "sideBySideEditor.verticalBorder": `${scheme.background}00`,
+    "sideBySideEditor.horizontalBorder": scheme.surfaceVariant,
+    "sideBySideEditor.verticalBorder": scheme.surfaceVariant,
   };
 }

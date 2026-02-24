@@ -35,7 +35,7 @@ export default function getListsTreesAndSidebars(scheme, term) {
     "activityBar.dropBorder": `${scheme.background}00`,
     "activityBar.foreground": scheme.onSurface,
     "activityBar.inactiveForeground": scheme.onSurfaceVariant,
-    "activityBar.border": `${scheme.background}00`,
+    "activityBar.border": scheme.surfaceVariant,
     "activityBarBadge.background": scheme.primary,
     "activityBarBadge.foreground": scheme.onPrimary,
     "activityBar.activeBorder": `${scheme.background}00`,
@@ -74,7 +74,7 @@ export default function getListsTreesAndSidebars(scheme, term) {
 
     "sideBar.background": scheme.surfaceContainer,
     "sideBar.foreground": scheme.onSurface,
-    "sideBar.border": `${scheme.background}00`,
+    "sideBar.border": scheme.surfaceVariant,
     "sideBar.dropBackground": `${scheme.primary}33`,
     "sideBarTitle.foreground": scheme.onSurface,
     "sideBarSectionHeader.background": scheme.surfaceContainerHigh,

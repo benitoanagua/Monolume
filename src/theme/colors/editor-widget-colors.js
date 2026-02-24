@@ -2,8 +2,8 @@ export default function getEditorWidgetColors(scheme, term) {
   return {
     "editorWidget.foreground": scheme.onSurface,
     "editorWidget.background": scheme.surfaceContainer,
-    "editorWidget.border": `${scheme.background}00`,
-    "editorWidget.resizeBorder": `${scheme.background}00`,
+    "editorWidget.border": scheme.surfaceVariant,
+    "editorWidget.resizeBorder": scheme.surfaceVariant,
     "editorSuggestWidget.background": scheme.surfaceContainerLow,
     "editorSuggestWidget.border": `${scheme.background}00`,
     "editorSuggestWidget.foreground": scheme.onSurface,
